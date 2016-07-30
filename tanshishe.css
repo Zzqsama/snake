@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style:none;
+	font-family:微软雅黑
+}
+   a{text-decoration:none;}
+   input{outline:none;
+   	     border: 0;
+   }
+
+   .changjing{
+   	width: 800px;
+   	height: 800px;
+   	background: green;
+   	position: absolute;
+   	top:0;
+   	left: 0;
+   	right: 0;
+   	bottom: 0;
+   	margin: auto;
+   }
+   .changjing .black{
+   	width: 20px;
+   	height: 20px;
+   	float: left;
+   }
+    .changjing .she{
+    background-image: url(she.png);
+    background-size:cover;
+  }
+    .changjing .shiwu{
+    background-image: url(shiwu.png);
+    background-size:cover;
+  }
+  .start{
+    width: 800px;
+    height: 800px;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .start .startgame{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #DEFE58;
+    border-radius: 10%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+    .start .jixu{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #DEFE58;
+    border-radius: 10%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+  }
+  .fenshu{
+    position: absolute;
+    font-size:30px;
+
+  }
+    .gameover{
+    width: 800px;
+    height: 800px;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+
+  }
+      .gameover .chonglai{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #DEFE58;
+    border-radius: 10%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
